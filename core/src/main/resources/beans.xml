@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        -<beans xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns="http://www.springframework.org/schema/beans">
+
+    <context:component-scan base-package="com.gromivchuk"/>
+
+    <!--bean id="numberGenerator" class="com.gromivchuk.NumberGeneratorImpl"/-->
+
+
+    <!--bean id="game" class="com.gromivchuk.GameImpl"-><!-constructor-arg ref="numberGenerator"/-->
+
+
+    <!---property name="numberGenerator" ref="numberGenerator"/-->
+
+
+    <!--/bea><!-bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/-->
+
+
+</beans>
